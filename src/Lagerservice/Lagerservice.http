@@ -1,0 +1,6 @@
+@Lagerservice_HostAddress = http://lagerservice:8082
+
+GET {{Lagerservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

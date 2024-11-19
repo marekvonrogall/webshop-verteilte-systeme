@@ -1,0 +1,6 @@
+@Bestellservice_HostAddress = http://bestellservice:8081
+
+GET {{Bestellservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

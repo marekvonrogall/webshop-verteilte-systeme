@@ -1,0 +1,6 @@
+@Kundenservice_HostAddress = http://kundenservice:8083
+
+GET {{Kundenservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
