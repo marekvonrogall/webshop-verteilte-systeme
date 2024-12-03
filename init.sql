@@ -25,7 +25,7 @@ INSERT INTO articles (name, availableQuantity) VALUES
 ('Tasse rot', 20),
 ('Tasse gelb', 15);
 
-INSERT INTO customers (full_namename, card_number) VALUES
+INSERT INTO customers (full_name, card_number) VALUES
 ('John Doe', '1234567812345678'),
 ('Jane Smith', '8765432187654321');
 

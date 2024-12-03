@@ -65,8 +65,6 @@ services:
       - bestellservice
       - lagerservice
       - kundenservice
-    networks:
-      - default
 
 volumes:
   mariadb_data:
