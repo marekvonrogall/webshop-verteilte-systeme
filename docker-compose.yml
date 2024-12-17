@@ -3,7 +3,7 @@ services:
   bestellservice:
     build:
       context: ./src/Bestellservice
-    image: ghcr.io/${{ github.repository }}/bestellservice:latest
+    image: ghcr.io/${IMAGE_NAME}/bestellservice:latest
     ports:
       - "8081:80"
     environment:
@@ -16,7 +16,7 @@ services:
   lagerservice:
     build:
       context: ./src/Lagerservice
-    image: ghcr.io/${{ github.repository }}/lagerservice:latest
+    image: ghcr.io/${IMAGE_NAME}/lagerservice:latest
     ports:
       - "8082:80"
     environment:
@@ -29,7 +29,7 @@ services:
   kundenservice:
     build:
       context: ./src/Kundenservice
-    image: ghcr.io/${{ github.repository }}/kundenservice:latest
+    image: ghcr.io/${IMAGE_NAME}/kundenservice:latest
     ports:
       - "8083:80"
     environment:
